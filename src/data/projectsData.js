@@ -31,9 +31,7 @@ export const projectsData = [
     video: "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932466/portfolio/videos/Lifestyle.mp4",
     gallery: [
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932466/portfolio/videos/Lifestyle.mp4",
-      "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773933002/portfolio/videos/lights.mp4",
-      "/videos/dubai/real estate vid-01.mp4",
-      "/videos/dubai/real-estate-real-estate-construction-music-269852_1.mp4"
+      "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773933002/portfolio/videos/lights.mp4"
     ],
     techStack: ["Premiere Pro", "CapCut", "Color Grading"],
     liveUrl: "#",
@@ -49,7 +47,6 @@ export const projectsData = [
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932685/portfolio/videos/PRACTICE%201.mp4",
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932710/portfolio/videos/__through_my_eye_28b264e889814fee8824658c33a8d948.mp4",
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932715/portfolio/videos/__through_my_eye_62dcb6ee38324a7c8430a72a22a2a4e1.mp4",
-      "/videos/practice/client 03.mp4",
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932629/portfolio/videos/client%2004.mp4",
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932651/portfolio/videos/lv_0_20231005210423.mp4",
       "https://res.cloudinary.com/dxpp7srrb/video/upload/v1773932702/portfolio/videos/practice%202.mp4"
