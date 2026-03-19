@@ -1,0 +1,7 @@
+# Exclude large video assets from Vercel upload
+# These files should be hosted on a CDN/Vercel Blob instead.
+assets/
+public/videos/*
+node_modules/
+.git/
+.env*
