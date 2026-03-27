@@ -1,24 +1,36 @@
-# Standard ignores
+# Root .gitignore
 node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+.env.local
+backend/.env
+frontend/.env.local
+
+# Build artifacts
 dist/
 build/
-.next/
 .vite/
-.vercel/
 
-# IGNORE ALL ASSET FOLDERS (1.5GB+ videos)
-# These folders will crash GitHub and Vercel uploads.
-# Host videos on Cloudinary/Vercel Blob instead.
-assets/
-public/assets/
-public/videos/
+# Large Media Files (Too big for GitHub)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wmv
+*.flv
+frontend/public/videos/
+assets/videos/
 
-# OS/System files
+# Keep static images if requested, but ignore large ones
+# frontend/public/images/ (uncomment if you want to ignore all images too)
+
+# System files
 .DS_Store
-*.pem
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-.env*
-.env*.local
